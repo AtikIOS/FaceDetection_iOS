@@ -6,30 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE054E842D6A60D200044A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE054E792D6A60D200044A1F /* Assets.xcassets */; };
+		BE054E862D6A60D200044A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE054E7D2D6A60D200044A1F /* LaunchScreen.storyboard */; };
+		BE054E872D6A60D200044A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE054E7F2D6A60D200044A1F /* Main.storyboard */; };
+		BE054E882D6A60D200044A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE054E782D6A60D200044A1F /* AppDelegate.swift */; };
+		BE054E892D6A60D200044A1F /* FaceDetection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE054E7A2D6A60D200044A1F /* FaceDetection.xcdatamodeld */; };
+		BE054E8A2D6A60D200044A1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE054E802D6A60D200044A1F /* SceneDelegate.swift */; };
+		BE054E8B2D6A60D200044A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE054E812D6A60D200044A1F /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE054E5D2D6A60C500044A1F /* FaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE054E782D6A60D200044A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE054E792D6A60D200044A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE054E7B2D6A60D200044A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE054E7C2D6A60D200044A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE054E7E2D6A60D200044A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE054E802D6A60D200044A1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE054E812D6A60D200044A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE054E832D6A60D200044A1F /* FaceDetection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaceDetection.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BE054E722D6A60C700044A1F /* Exceptions for "FaceDetection" folder in "FaceDetection" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BE054E5C2D6A60C500044A1F /* FaceDetection */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BE054E5F2D6A60C500044A1F /* FaceDetection */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BE054E722D6A60C700044A1F /* Exceptions for "FaceDetection" folder in "FaceDetection" target */,
-			);
-			path = FaceDetection;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE054E5A2D6A60C500044A1F /* Frameworks */ = {
@@ -45,7 +42,7 @@
 		BE054E542D6A60C500044A1F = {
 			isa = PBXGroup;
 			children = (
-				BE054E5F2D6A60C500044A1F /* FaceDetection */,
+				BE054E822D6A60D200044A1F /* FaceDetection */,
 				BE054E5E2D6A60C500044A1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,21 @@
 				BE054E5D2D6A60C500044A1F /* FaceDetection.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE054E822D6A60D200044A1F /* FaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				BE054E782D6A60D200044A1F /* AppDelegate.swift */,
+				BE054E792D6A60D200044A1F /* Assets.xcassets */,
+				BE054E7A2D6A60D200044A1F /* FaceDetection.xcdatamodeld */,
+				BE054E7B2D6A60D200044A1F /* Info.plist */,
+				BE054E7D2D6A60D200044A1F /* LaunchScreen.storyboard */,
+				BE054E7F2D6A60D200044A1F /* Main.storyboard */,
+				BE054E802D6A60D200044A1F /* SceneDelegate.swift */,
+				BE054E812D6A60D200044A1F /* ViewController.swift */,
+			);
+			path = FaceDetection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BE054E5F2D6A60C500044A1F /* FaceDetection */,
 			);
 			name = FaceDetection;
 			packageProductDependencies = (
@@ -122,6 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE054E842D6A60D200044A1F /* Assets.xcassets in Resources */,
+				BE054E862D6A60D200044A1F /* LaunchScreen.storyboard in Resources */,
+				BE054E872D6A60D200044A1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +144,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE054E882D6A60D200044A1F /* AppDelegate.swift in Sources */,
+				BE054E892D6A60D200044A1F /* FaceDetection.xcdatamodeld in Sources */,
+				BE054E8A2D6A60D200044A1F /* SceneDelegate.swift in Sources */,
+				BE054E8B2D6A60D200044A1F /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE054E7D2D6A60D200044A1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE054E7C2D6A60D200044A1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE054E7F2D6A60D200044A1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE054E7E2D6A60D200044A1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE054E742D6A60C700044A1F /* Debug */ = {
@@ -333,6 +368,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE054E7A2D6A60D200044A1F /* FaceDetection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE054E832D6A60D200044A1F /* FaceDetection.xcdatamodel */,
+			);
+			currentVersion = BE054E832D6A60D200044A1F /* FaceDetection.xcdatamodel */;
+			path = FaceDetection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BE054E552D6A60C500044A1F /* Project object */;
 }
